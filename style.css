@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oxygen&family=Roboto+Slab:wght@500&display=swap');
+@font-face {
+  font-family: Moderat;
+  src: url(Moderat-Regular.ttf);
+}
+body{
+  background-color: white;
+  color : #124559;
+  font-family: 'Moderat', Arial, serif;
+  width: 700px;
+  margin: 0,auto;
+}
+
+h1{
+  font-family: 'Roboto', Arial, serif;
+  font-size: 26px;
+
+}
+
+p{
+  width: 700px;
+  text-align:justify;
+  margin: 0 auto;
+}
+#social-links{
+  position: relative;
+  top: 15px;
+}
+
+#text{
+  position: relative;
+  top: 35px;
+}
+
+#header{
+    position: relative;
+    top: -90px;
+}
+.btn-green{
+  background-color: #0A2E36;
+  color: white;
+  padding: 20px;
+  border-radius: 7px;
+  display: inline;
+}
+
+.btn-green:hover{
+  background-color: #01161E;
+}
+
+#button-music{
+  position: relative;
+  top: 40px;
+  font-size: 13px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+#square-block{
+
+  text-align: center;    border: 3px solid lightgrey;
+  width: 211px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 675px;
+  right: -110px;
+
+}
+
+img {
+  border-radius: 4px;
+  width: 400px;
+  box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, .1);
+
+}
+div{
+  text-align: center;
+  width: 1000px;
+  margin : 20px auto ;
+  padding: 20px;
+}
+
+#left, #right {
+  float:left;
+  height: 300px;
+  width: 400px;
+}
+
+
+ul>li>a{
+  color: black;
+  align-content: space-around;
+  padding-right: 15px;
+  margin-right: 20px;
+}
+ul>li{
+
+  display: inline;
+  list-style: none;
+
+}
